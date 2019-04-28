@@ -1,0 +1,38 @@
+
+@keyframes spining {
+  from {
+    transform:rotate(0deg);
+  }
+  to {
+    transform:rotate(720deg);
+  }
+}
+
+.animation-spin {
+  animation-name: spining;
+  animation-duration: 2000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+
+@keyframes autofill {
+  to {
+    background: transparent;
+  }
+}
+
+
+@keyframes shine {
+  0% { opacity: 1 }
+  50% { opacity: 0 }
+  100% { opacity: 1 }
+}
+
+.animation-shine {
+  animation-name: shine;
+  animation-duration: 2500ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+

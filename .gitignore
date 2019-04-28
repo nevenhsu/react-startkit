@@ -1,0 +1,17 @@
+# File
+*.pem
+npm-debug.log
+npm-debug.log.**
+package-lock.json
+.DS_Store
+webpack-assets.json
+stats.html
+
+# Folder
+/node_modules/*
+.idea/*
+/src/video
+dist/*
+public/*
+
+

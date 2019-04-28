@@ -1,0 +1,26 @@
+{
+    "javascript.implicitProjectConfig.experimentalDecorators": true,
+    "npm-intellisense.importLinebreak": "",
+    "files.associations": {
+        "*.json": "jsonc",
+        "*.jsx": "javascriptreact"
+    },
+    "npm-intellisense.packageSubfoldersIntellisense": true,
+    "eslint.options": {
+        "experimentalDecorators": true
+    },
+    "todohighlight.keywords": [{
+        "text": "MARK:",
+        "color": "#ffffff",
+        "backgroundColor": "#01579b",
+        "overviewRulerColor": "grey"
+    }],
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "beautify.ignore": [
+        "**/*.js",
+        "**/*.jsx"
+    ],
+    "editor.formatOnSave": true
+}

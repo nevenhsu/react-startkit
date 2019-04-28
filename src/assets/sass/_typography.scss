@@ -1,0 +1,108 @@
+@import './custom_variable';
+/*=====================
+    Typography
+=======================*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+    word-break: break-word;
+}
+
+h1 {
+    font: 900 5.625rem/1.4222 $font-family-sans-serif; // 90px/128px
+    letter-spacing: -1.5px;
+}
+
+h2 {
+    font: 400 3.625rem/1.379 $font-family-sans-serif; // 58px/80px
+    letter-spacing: -0.5px;
+}
+
+h3 {
+    font: 700 2.875rem/1.391 $font-family-sans-serif; // 46px/64px
+    letter-spacing: 0;
+}
+
+h4 {
+    font: 700 2rem/1.5 $font-family-sans-serif; // 32px/48px
+    letter-spacing: 0.25px;
+}
+
+h5 {
+    font: 700 1.5rem/1.3334 $font-family-sans-serif; // 24px/32px
+    letter-spacing: 0;
+}
+
+h6 {
+    font: 700 1.25rem/1.6 $font-family-sans-serif; // 20px/32px
+    letter-spacing: 0.25px;
+}
+
+.text-subtitle1 {
+    font: 700 1rem/1.875 $font-family-body !important; // 16px/30px
+    letter-spacing: 0.15px !important;
+}
+
+.text-subtitle2 {
+    font: 700 0.875rem/1.714 $font-family-body !important; // 14px/24px
+    letter-spacing: 0.1px !important;
+}
+
+p {
+    font: 400 1rem/1.875 $font-family-body; // 16px/30px
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+
+.text-body1 {
+    font: 400 1rem/1.875 $font-family-body !important; // 16px/30px
+    letter-spacing: 0.5px !important;
+}
+
+.text-body2 {
+    font: 400 0.875rem/1.714 $font-family-body !important; // 14px/24px
+    letter-spacing: 0.25px !important;
+}
+
+button,
+a,
+.text-button {
+    font: 700 0.875rem/1.142 $font-family-sans-serif; // 14px/16px
+    letter-spacing: 1.25px;
+}
+
+a {
+    font-family: inherit;
+    color: $palette-primary-main;
+}
+
+span {
+    font-family: inherit;
+}
+
+small,
+.text-caption {
+    font: 700 0.75rem/1.333 $font-family-body !important; // 12px/16px
+    letter-spacing: 0.4px;
+}
+
+.text-caption2 {
+    font: 700 0.625rem/1.6 $font-family-body !important; // 10px/16px
+    letter-spacing: 0.25px !important;
+}
+
+.text-ellipsis {
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+
+.text-shadow {
+    text-shadow: 0 1px 1px rgba(53, 53, 65, 0.5);
+}

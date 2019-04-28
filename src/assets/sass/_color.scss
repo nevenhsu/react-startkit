@@ -1,0 +1,32 @@
+@import "./custom_variable";
+/*=====================
+   Color
+=======================*/
+
+.color-primary-light  {color: $palette-primary-light !important;}
+.color-primary-main   {color: $palette-primary-main !important;}
+.color-primary-dark   {color: $palette-primary-dark !important;}
+
+.color-secondary-light  {color: $palette-secondary-light !important;}
+.color-secondary-main   {color: $palette-secondary-main !important;}
+.color-secondary-dark   {color: $palette-secondary-dark !important;}
+
+.color-dark-light {color: $palette-dark-light !important;}
+.color-dark-main  {color: $palette-dark-main !important;}
+.color-dark-dark  {color: $palette-dark-dark !important;}
+
+.color-error-light  {color: $palette-error-light !important;}
+.color-error-main   {color: $palette-error-main !important;}
+.color-error-dark   {color: $palette-error-dark !important;}
+
+.color-light-light  {color: $palette-light-light !important;}
+.color-light-main   {color: $palette-light-main !important;}
+.color-light-dark   {color: $palette-light-dark !important;}
+
+.color-grey-light {color: $palette-grey-light !important;}
+.color-grey-main  {color: $palette-grey-main !important;}
+.color-grey-dark  {color: $palette-grey-dark !important;}
+
+.color-white {color: $palette-white !important;}
+.color-black {color: $palette-black !important;}
+

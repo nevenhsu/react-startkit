@@ -1,0 +1,132 @@
+{
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "legacyDecorators": true,
+            "experimentalObjectRestSpread": true,
+            "jsx": true
+        },
+        "allowImportExportEverywhere": false,
+        "sourceType": "module"
+    },
+    "plugins": ["babel", "prettier"],
+    "extends": ["airbnb", "prettier", "prettier/react"],
+    "rules": {
+        "prettier/prettier": "off",
+        "linebreak-style": "off",
+        "strict": "off",
+        "indent": "off",
+        "spaced-comment": "off",
+        "eqeqeq": "warn",
+        "global-require": "warn",
+        "no-var": "warn",
+        "vars-on-top": "warn",
+        "block-scoped-var": "warn",
+        "arrow-body-style": "warn",
+        "object-shorthand": "warn",
+        "lines-between-class-members": "warn",
+        "camelcase": [
+            "warn",
+            {
+                "ignoreDestructuring": true
+            }
+        ],
+        "consistent-return": [
+            "warn",
+            {
+                "treatUndefinedAsUnspecified": true
+            }
+        ],
+        // import-
+        "import/first": "off",
+        "import/extensions": "off",
+        "import/no-unresolved": "off",
+        "import/newline-after-import": "off",
+        "import/order": "off",
+        "import/prefer-default-export": "warn",
+        "import/no-extraneous-dependencies": "off",
+        // no-
+        "no-console": "off",
+        "no-continue": "off",
+        "no-named-as-default": "off",
+        "no-useless-escape": "off",
+        "no-shadow": "off",
+        "no-use-before-define": "off",
+        "no-useless-return": "warn",
+        "no-redeclare": "warn",
+        "no-restricted-syntax": "warn",
+        "no-nested-ternary": "warn",
+        "no-throw-literal": "warn",
+        "no-unused-vars": [
+            "warn",
+            {
+                "args": "none"
+            }
+        ],
+        "no-param-reassign": [
+            "warn",
+            {
+                "props": false
+            }
+        ],
+        "no-underscore-dangle": [
+            "error",
+            {
+                "allowAfterThis": true
+            }
+        ],
+        "no-plusplus": [
+            "error",
+            {
+                "allowForLoopAfterthoughts": true
+            }
+        ],
+        // prefer-
+        "prefer-spread": "warn",
+        "prefer-template": "warn",
+        "prefer-const": "warn",
+        "prefer-destructuring": "warn",
+        // jsx-
+        "jsx-a11y/no-static-element-interactions": "warn",
+        "jsx-a11y/click-events-have-key-events": "warn",
+        // react-
+        "react/jsx-indent": "off",
+        "react/jsx-indent-props": "off",
+        "react/destructuring-assignment": "off",
+        "react/forbid-prop-types": "off",
+        "react/sort-comp": "off",
+        "react/import/first": "off",
+        "react/prefer-stateless-function": "off",
+        "react/prop-types": "warn",
+        "react/require-default-props": "warn",
+        "react/self-closing-comp": "warn",
+        "react/no-access-state-in-setstate": "warn",
+        "react/no-array-index-key": "warn",
+        "react/no-unused-state": "warn",
+        "react/no-unused-prop-types": "warn",
+        "react/jsx-boolean-value": "warn",
+        "react/jsx-no-duplicate-props": [
+            "error",
+            {
+                "ignoreCase": false
+            }
+        ],
+        "react/jsx-filename-extension": [
+            "warn",
+            {
+                "extensions": [".js", "jsx"]
+            }
+        ]
+    },
+    "globals": {
+        "document": true,
+        "window": true,
+        "localStorage": true
+    },
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "node": true
+    }
+}

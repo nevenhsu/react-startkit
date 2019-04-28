@@ -1,0 +1,6 @@
+
+src/dist/*
+node_modules/*
+public/*
+build/*
+config/*

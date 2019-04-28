@@ -1,0 +1,88 @@
+// override bootstrap variables and add custom ones
+@import './custom_variable';
+
+/*=====================
+    Global Setting
+=======================*/
+* {
+    font-family: $font-family-sans-serif;
+    margin: 0;
+}
+
+.font-family-brand {
+    font-family: $font-family-sans-serif !important;
+}
+
+.font-family-body {
+    font-family: $font-family-body !important;
+}
+
+body {
+    color: $palette-dark-dark;
+    overflow-x: hidden;
+    overflow-y: overlay;
+    width: 100vw;
+}
+
+a,
+p,
+button,
+input,
+div,
+span,
+td,
+textarea {
+    border: none;
+    text-decoration: none;
+
+    &:focus {
+        outline: none !important;
+    }
+}
+
+input:-webkit-autofill {
+    -webkit-text-fill-color: $palette-dark-dark !important;
+    animation-name: autofill;
+    animation-fill-mode: both;
+    -webkit-box-shadow: 0 0 0 30px white inset;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid $palette-grey-light;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/*=====================
+    Custom Class
+=======================*/
+
+@import 'typography';
+@import 'animate';
+@import 'color';
+@import 'boxShadow';
+@import 'utility';
+@import 'scrollbar';
+
+/*=====================
+    Library
+=======================*/
+
+// import only the Bootstrap modules you need, e.g.
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+@import '~bootstrap/scss/utilities';
+@import '~bootstrap/scss/grid';
+
+// import vendors
+@import './custom/custom_toastify';
+@import '~animate.css/animate';
+
+// font face
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700|Vidaloka');
+@import url('https://fonts.googleapis.com/earlyaccess/notosanstc.css');

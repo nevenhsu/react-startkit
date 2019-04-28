@@ -1,0 +1,67 @@
+
+// =============================
+// Override React Toastify
+// =============================
+@import "../custom_variable";
+@import "~react-toastify/scss/main";
+
+.#{$rt-namespace}__toast {
+  font-family: $font-family-body;
+  border-radius: $border-radius;
+  padding: 8px 16px;
+  font-size: 16px;
+  line-height: 1.5;
+  box-shadow: unset;
+  &--default {
+    background: $palette-white;
+    color: $palette-dark-main;
+    box-shadow: $shadow-dark-6;
+  }
+  &--info {
+    background: $palette-secondary-light;
+    color: $palette-white;
+    box-shadow: 0 6px 10px 0 rgba(36,89,86,0.14), 0 1px 18px 0 rgba(36,89,86,0.12), 0 3px 5px -1px rgba(36,89,86,0.20);
+  }
+  &--success {
+    background: $palette-primary-main;
+    color: $palette-white;
+    box-shadow: $shadow-primary-6;
+  }
+  &--warning {
+    background: $palette-dark-dark;
+    color: $palette-white;
+    box-shadow: $shadow-dark-6;
+  }
+  &--error {
+    background: $palette-error-main;
+    color: $palette-white;
+    box-shadow: 0 6px 10px 0 rgba(158,40,79,0.14), 0 1px 18px 0 rgba(158,40,79,0.12), 0 3px 5px -1px rgba(158,40,79,0.20);
+  }
+}
+
+// Override Track Progress
+@keyframes ToastifyTrackProgress {
+  0%{
+    width: 100%;
+  }
+  100%{
+    width: 0;
+  }
+}
+
+.#{$rt-namespace}__progress-bar {
+  height: 4px;
+  animation-name: ToastifyTrackProgress;
+  background-color: rgba(255, 255, 255, 0.5);
+  animation-duration: 5s;
+
+  &--default{
+    background: linear-gradient(270deg, #19FD7A 0%, #08A44B 100%);
+  }
+
+  &--info{}
+  &--success{}
+  &--warning{}
+  &--error{}
+}
+

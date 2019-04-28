@@ -1,0 +1,26 @@
+@import './custom_variable';
+/*=====================
+   Scrollbar
+=======================*/
+
+// Hidden Default
+.scroll-hidden::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    display: none;
+}
+
+// Blue Gray
+*::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+*::-webkit-scrollbar-track,
+*::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+*::-webkit-scrollbar-thumb {
+    background-color: $palette-light-dark;
+    border-radius: 9999px;
+}

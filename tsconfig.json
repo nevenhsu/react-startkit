@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "target": "ES6",
+        "allowJs": true,
+        "noEmit": true,
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "baseUrl": "./",
+        "paths": {
+            "assets/*": ["src/assets/*"],
+            "actions/*": ["src/actions/*"],
+            "components/*": ["src/components/*"],
+            "constants/*": ["src/constants/*"],
+            "containers/*": ["src/containers/*"],
+            "services/*": ["src/services/*"],
+            "reducers/*": ["src/reducers/*"],
+            "store/*": ["src/store/*"],
+            "utils/*": ["src/utils/*"],
+            "theme/*": ["src/theme/*"],
+            "translations/*": ["src/translations/*"]
+        }
+    },
+    "exclude": ["node_modules", "dist", "public"],
+    "typeAcquisition": {
+        "enable": true
+    }
+}

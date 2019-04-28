@@ -1,0 +1,128 @@
+// =============================
+// Color
+// =============================
+$palette-primary-light: #F45D7A;
+$palette-primary-main: #F01D46;
+$palette-primary-dark: #BD0D2F;
+
+$palette-secondary-light: #3550BC;
+$palette-secondary-main: #22347A;
+$palette-secondary-dark: #172352;
+
+$palette-dark-light: #5565A3;
+$palette-dark-main: #2F313D;
+$palette-dark-dark: #121214;
+
+$palette-error-light: #FF3D2B;
+$palette-error-main: #D9200F;
+$palette-error-dark: #8C1005;
+
+$palette-light-light: #F9E598;
+$palette-light-main: #F5D558;
+$palette-light-dark: #EABD0E;
+
+$palette-grey-light: #DCDDDE;
+$palette-grey-main: #A8AAAD;
+$palette-grey-dark: #85888C;
+
+$palette-white: #FAF6F5;
+$palette-black: #121214;
+
+// =============================
+// Shadow
+// =============================
+$shadow-primary-1: 0 1px 1px 0 rgba(240, 29, 70, 0.14),
+0 2px 1px -1px rgba(240, 29, 70, 0.12),
+0 1px 3px 0 rgba(240, 29, 70, 0.2);
+$shadow-primary-3: 0 3px 4px 0 rgba(240, 29, 70, 0.14),
+0 3px 3px -2px rgba(240, 29, 70, 0.12),
+0 1px 8px 0 rgba(240, 29, 70, 0.2);
+$shadow-primary-4: 0 4px 5px 0 rgba(240, 29, 70, 0.14),
+0 1px 10px 0 rgba(240, 29, 70, 0.12),
+0 2px 4px -1px rgba(240, 29, 70, 0.2);
+$shadow-primary-6: 0 6px 10px 0 rgba(240, 29, 70, 0.14),
+0 1px 18px 0 rgba(240, 29, 70, 0.12),
+0 3px 5px -1px rgba(240, 29, 70, 0.2);
+$shadow-primary-8: 0 8px 10px 1px rgba(240, 29, 70, 0.14),
+0 3px 14px 2px rgba(240, 29, 70, 0.12),
+0 5px 5px -3px rgba(240, 29, 70, 0.2);
+
+$shadow-secondary-1: 0 1px 1px 0 rgba(34, 52, 122, 0.14),
+0 2px 1px -1px rgba(34, 52, 122, 0.12),
+0 1px 3px 0 rgba(34, 52, 122, 0.2);
+$shadow-secondary-3: 0 3px 4px 0 rgba(34, 52, 122, 0.14),
+0 3px 3px -2px rgba(34, 52, 122, 0.12),
+0 1px 8px 0 rgba(34, 52, 122, 0.2);
+$shadow-secondary-4: 0 4px 5px 0 rgba(34, 52, 122, 0.14),
+0 1px 10px 0 rgba(34, 52, 122, 0.12),
+0 2px 4px -1px rgba(34, 52, 122, 0.2);
+$shadow-secondary-6: 0 6px 10px 0 rgba(34, 52, 122, 0.14),
+0 1px 18px 0 rgba(34, 52, 122, 0.12),
+0 3px 5px -1px rgba(34, 52, 122, 0.2);
+$shadow-secondary-8: 0 8px 10px 1px rgba(34, 52, 122, 0.14),
+0 3px 14px 2px rgba(34, 52, 122, 0.12),
+0 5px 5px -3px rgba(34, 52, 122, 0.2);
+
+$shadow-dark-1: 0 1px 1px 0 rgba(47, 49, 61, 0.14),
+0 2px 1px -1px rgba(47, 49, 61, 0.12),
+0 1px 3px 0 rgba(47, 49, 61, 0.2);
+$shadow-dark-3: 0 3px 4px 0 rgba(47, 49, 61, 0.14),
+0 3px 3px -2px rgba(47, 49, 61, 0.12),
+0 1px 8px 0 rgba(47, 49, 61, 0.2);
+$shadow-dark-4: 0 4px 5px 0 rgba(47, 49, 61, 0.14),
+0 1px 10px 0 rgba(47, 49, 61, 0.12),
+0 2px 4px -1px rgba(47, 49, 61, 0.2);
+$shadow-dark-6: 0 6px 10px 0 rgba(47, 49, 61, 0.14),
+0 1px 18px 0 rgba(47, 49, 61, 0.12),
+0 3px 5px -1px rgba(47, 49, 61, 0.2);
+$shadow-dark-8: 0 8px 10px 1px rgba(47, 49, 61, 0.14),
+0 3px 14px 2px rgba(47, 49, 61, 0.12),
+0 5px 5px -3px rgba(47, 49, 61, 0.2);
+
+// =============================
+// Overwrite Bootstrap Variables
+// =============================
+$grid-breakpoints: (xs: 0,
+sm: 600px,
+md: 960px,
+lg: 1280px,
+xl: 1920px);
+
+$grid-gutter-width: 32px;
+
+// Font
+$font-family-sans-serif: 'Vidaloka',
+'Times New Roman',
+'Segoe UI',
+'Helvetica Neue',
+Times,
+serif,
+'Noto Sans TC',
+-apple-system,
+BlinkMacSystemFont,
+'Apple Color Emoji',
+'Segoe UI Emoji',
+'Segoe UI Symbol';
+
+$font-family-body: 'Lato',
+"Trebuchet MS",
+'Segoe UI',
+'Helvetica Neue',
+Roboto,
+Arial,
+sans-serif,
+'Noto Sans TC',
+-apple-system,
+BlinkMacSystemFont,
+'Apple Color Emoji',
+'Segoe UI Emoji',
+'Segoe UI Symbol';
+
+// Utilities
+$border-radius: 8px;
+$box-shadow-sm: $shadow-primary-1;
+$box-shadow: $shadow-primary-3;
+$box-shadow-lg: $shadow-primary-6;
+
+$body-color: $palette-dark-dark;
+$text-muted: $palette-grey-dark;

@@ -1,0 +1,168 @@
+@import './custom_variable';
+/*=====================
+   Utility
+=======================*/
+
+.rounded-pill {
+    border-radius: 9999px !important;
+}
+
+.vh-100 {
+    height: 100vh;
+}
+
+.overflow-hidden {
+    overflow: hidden !important;
+}
+
+.hidden {
+    position: fixed !important;
+    opacity: 0 !important;
+    cursor: default !important;
+    color: transparent !important;
+    background-color: transparent !important;
+    border-color: transparent !important;
+    pointer-events: none !important;
+}
+
+.show {
+    opacity: 1 !important;
+}
+
+.hide {
+    opacity: 0 !important;
+    pointer-events: none;
+}
+
+.no-pointer {
+    pointer-events: none,
+}
+
+.center-items {
+    display: flex !important;
+    align-items: center;
+}
+
+.font-weight-black {
+    font-weight: 900 !important;
+}
+
+/*      Z Index     */
+.z-mobileStepper {
+    z-index: 1000;
+}
+
+.z-appBar {
+    z-index: 1100;
+}
+
+.z-drawer {
+    z-index: 1200;
+}
+
+.z-modal {
+    z-index: 1300;
+}
+
+.z-snackbar {
+    z-index: 1400;
+}
+
+.z-tooltip {
+    z-index: 1500;
+}
+
+
+/*      Align     */
+
+.absolute-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.absolute-horizontal {
+    position: absolute !important;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.absolute-vertical {
+    position: absolute !important;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/*      Spacing     */
+
+.mb-32 {
+    margin-bottom: 32px !important;
+}
+
+.mt-32 {
+    margin-top: 32px !important;
+}
+
+.mr-32 {
+    margin-right: 32px !important;
+}
+
+.ml-32 {
+    margin-left: 32px !important;
+}
+
+.px-32 {
+    padding-right: 32px !important;
+    padding-left: 32px !important;
+}
+
+.pr-32 {
+    padding-right: 32px !important;
+}
+
+.pl-32 {
+    padding-left: 32px !important;
+}
+
+.pt-32 {
+    padding-top: 32px !important;
+}
+
+.pb-32 {
+    padding-bottom: 32px !important;
+}
+
+/*      Cursor     */
+
+.c-auto {
+    cursor: auto;
+}
+
+.c-help {
+    cursor: help;
+}
+
+.c-wait {
+    cursor: wait;
+}
+
+.c-cross {
+    cursor: crosshair;
+}
+
+.c-disabled {
+    cursor: not-allowed;
+}
+
+.c-zoomIn {
+    cursor: zoom-in;
+}
+
+.c-grab {
+    cursor: grab;
+}
+
+.c-pointer {
+    cursor: pointer;
+}

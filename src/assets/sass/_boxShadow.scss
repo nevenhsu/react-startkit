@@ -1,0 +1,24 @@
+@import "./custom_variable";
+/*=====================
+   Box Shadow
+=======================*/
+
+.shadow-primary-1 {box-shadow: $shadow-primary-1 !important;}
+.shadow-primary-3 {box-shadow: $shadow-primary-3 !important;}
+.shadow-primary-4 {box-shadow: $shadow-primary-4 !important;}
+.shadow-primary-6 {box-shadow: $shadow-primary-6 !important;}
+.shadow-primary-8 {box-shadow: $shadow-primary-8 !important;}
+
+.shadow-secondary-1 {box-shadow: $shadow-secondary-1 !important;}
+.shadow-secondary-3 {box-shadow: $shadow-secondary-3 !important;}
+.shadow-secondary-4 {box-shadow: $shadow-secondary-4 !important;}
+.shadow-secondary-6 {box-shadow: $shadow-secondary-6 !important;}
+.shadow-secondary-8 {box-shadow: $shadow-secondary-8 !important;}
+
+.shadow-dark-1 {box-shadow: $shadow-dark-1 !important;}
+.shadow-dark-3 {box-shadow: $shadow-dark-3 !important;}
+.shadow-dark-4 {box-shadow: $shadow-dark-4 !important;}
+.shadow-dark-6 {box-shadow: $shadow-dark-6 !important;}
+.shadow-dark-8 {box-shadow: $shadow-dark-8 !important;}
+
+
